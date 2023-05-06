@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Guide de démarrage de l'application
 
 Ce projet a démarré avec [Create React App](https://github.com/facebook/create-react-app).
+
+## `npm install`
+
+Cette commande permet d'installer les modules de NodeJs.
 
 ### `npm start`
 
