@@ -8,7 +8,7 @@ Ensuite exécuter cette commande (si elle est proposée) pour faire un audit et 
 
 ## `npm audit fix --force`
 
-Cette commande permet d'installer les modules de NodeJs.
+Cette commande permet de démarrer l'application :
 
 ### `npm start`
 
