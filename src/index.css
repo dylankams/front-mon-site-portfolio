@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.banner-image {
+  position: relative;
+  top: -150px; /* Modifiez cette valeur pour ajuster la position de l'image */
+}
