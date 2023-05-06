@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React,{ useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../../assets/img/header-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';

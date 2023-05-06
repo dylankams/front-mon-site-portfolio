@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "../molecules/ProjectCard";
 import projImg1 from "../../assets/img/project-img1.png";
