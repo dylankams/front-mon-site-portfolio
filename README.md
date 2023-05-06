@@ -16,11 +16,13 @@ Vous pouvez également voir des erreurs dans la console.
 
 
 ### Url de connexion à l'epace d'administration
-[http://localhost:3000/login] 
+[http://localhost:3000/login](http://localhost:3000/login)
 email : loic.kameni@estiam.com
 password : dylan
 
-Note : Dans la liste des articles, pour voir le contenu de l'article vous devez cliquer sur le titre.
+Note : 
+- La base de donnée est fournie. 
+- Dans la liste des articles, pour voir le contenu de l'article vous devez cliquer sur le titre de l'article.
 
 ### `npm test`
 
