@@ -70,9 +70,26 @@ const Articles = () => {
 
   // Fonction pour supprimer un article via l'API
   const deleteArticle = async (id) => {
-    await axios.delete(`http://localhost:3001/articles/${id}`);
-    await fetchArticles();
+    try {
+      // Récupération des commentaires de l'article
+      const response = await axios.get(`http://localhost:3001/articles/${id}/comments`);
+      const comments = response.data;
+      
+      // Suppression de chaque commentaire de l'article
+      await Promise.all(comments.map(async (comment) => {
+        await axios.delete(`http://localhost:3001/articles/${id}/comments/${comment.id}`);
+      }));
+  
+      // Suppression de l'article lui-même
+      await axios.delete(`http://localhost:3001/articles/${id}`);
+      
+      // Rafraîchissement de la liste des articles
+      await fetchArticles();
+    } catch (error) {
+      console.error(error);
+    }
   };
+  
 
   // Effet pour récupérer les articles lors du montage du composant
   useEffect(() => {
