@@ -2,13 +2,9 @@
 
 Ce projet a démarré avec [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
-Exécutez l'application en mode développement.\
+Cette commande permet d'exécuter l'application en mode développement.\
 Ouvrir le lien [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir l'application.
 
 La page se rechargera lorsque vous apporterez des modifications.\
