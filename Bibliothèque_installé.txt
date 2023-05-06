@@ -1,0 +1,9 @@
+react-bootstrap
+react-router-dom
+react-router-hash-link
+react-multi-carousel
+react-on-screen
+react-bootstrap-icons	
+
+npm install animate.css --save
+npm install bootstrap
