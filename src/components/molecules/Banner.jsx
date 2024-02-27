@@ -56,9 +56,13 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Bienvenue sur mon portolio !</span>
+                <span className="tagline">Bienvenue sur mon portfolio !</span>
                 <h2>{`Bonjour ! je suis Dylan KAMENI,`} <span className="txt-rotate" data-period="1000" data-rotate='[ "Web Developer", "Data analyst", "Web Designer" ]'><span className="wrap">{text}</span></span></h2>
-                  <p>Bonjour, je suis Dylan KAMENI, un développeur passionné par la création de solutions innovantes. Avec une expérience solide en développement full stack Javascript, je suis capable de répondre à tous vos besoins en matière de développement web. Mon objectif est de créer des applications qui apportent une réelle valeur ajoutée à vos utilisateurs. Parcourez mon portfolio pour découvrir mes projets les plus récents et n'hésitez pas à me contacter pour discuter de votre prochain projet.</p>
+                  <p>Je suis Dylan KAMENI, un passionné de développement doté d'une solide formation et d'une expérience dans le domaine du développement web et de l'analyse de données. 
+                    Avec des compétences avancées en analyse et programmation de logiciel ainsi que dans l'analyse de données en vue d'améliorer votre prise de décision avec des KPI pertinents. 
+                    J'ai acquis les connaissances nécessaires pour répondre à divers besoins en matière de développement web et analyse de données. 
+                    Mon objectif est de concevoir des solutions innovantes qui offrent une réelle valeur ajoutée aux utilisateurs. Actuellement à la recherche d'un emploi, je vous invite à parcourir mon portfolio pour découvrir mes projets les plus récents. 
+                    N'hésitez pas à me contacter pour discuter de votre prochain projet.</p>
                   <ContactLink href={`mailto:${myEmail}`}>Envoyez moi un mail ! <ArrowRightCircle size={25} /></ContactLink>
               </div>}
             </TrackVisibility>

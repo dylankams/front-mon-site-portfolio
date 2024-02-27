@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../../assets/img/logo.png';
 import navIcon1 from '../../assets/img/nav-icon1.svg';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const NavBar = () => {
@@ -42,7 +41,7 @@ export const NavBar = () => {
                 <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Accueil</Nav.Link>
                 <Nav.Link href="/#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Compétences</Nav.Link>
                 <Nav.Link href="/#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projets</Nav.Link>
-                <StyledLink to="/blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'}>Blog</StyledLink>          
+                <Nav.Link href="../../assets/cv/CV_Loïc_Dylan_KAMENI.pdf" download className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}>Mon CV</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -57,23 +56,6 @@ export const NavBar = () => {
       </Navbar>
   )
 }
-
-const StyledLink = styled(Link)`
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  font-size: 20px;
-  margin-right: 1rem;
-  position:relative;
-  bottom : 9px;
-  &:hover {
-    text-decoration: none;
-    color : white;
-  }
-  &.active {
-    font-weight: bold;
-  }
-`;
 
 
 const IconLink = styled.a`
