@@ -1,10 +1,14 @@
 # Guide de démarrage de l'application
 
-Ce projet a démarré avec [Create React App](https://github.com/facebook/create-react-app).
+Pour installer les dépendances nécessaires exécuter la commande suivante :
 
 ## `npm install`
 
-Cette commande permet d'installer les modules de NodeJs.
+Ensuite exécuter cette commande (si elle est proposée) pour faire un audit et une corrections des dépendances :
+
+## `npm audit fix --force`
+
+Cette commande permet de démarrer l'application :
 
 ### `npm start`
 

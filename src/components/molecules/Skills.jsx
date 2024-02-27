@@ -1,3 +1,4 @@
+import React from 'react';
 import meter1 from "../../assets/img/meter1.svg";
 import meter2 from "../../assets/img/meter2.svg";
 import meter3 from "../../assets/img/meter3.svg";
