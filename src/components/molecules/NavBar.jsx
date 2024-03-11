@@ -41,7 +41,7 @@ export const NavBar = () => {
                 <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Accueil</Nav.Link>
                 <Nav.Link href="/#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Compétences</Nav.Link>
                 <Nav.Link href="/#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projets</Nav.Link>
-                <Nav.Link href="../../assets/cv/CV_Loïc_Dylan_KAMENI.pdf" download className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}>Mon CV</Nav.Link>
+                <Nav.Link href="https://drive.google.com/file/d/1nB2jYBOjhYX0lPnTalup3uJLqxvxjEFJ/view?usp=drive_link" download target="_blank" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}>Mon CV</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
