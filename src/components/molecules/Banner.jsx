@@ -58,8 +58,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bienvenue sur mon portfolio !</span>
                 <div style={{ position: 'relative', overflow: 'hidden', paddingTop: '56.25%' }}>
-                  <iframe src="https://drive.google.com/file/d/1MAjOV8Y-xAzNtSVCbAH64OkiGnWRES1E/preview" 
-                          title="Titre de la vidéo" 
+                  <iframe src="https://drive.google.com/file/d/1oOUCEhCqQTUOCY_XCmhZ53wz_fk-PMxc/preview" 
+                          title="Presentation" 
                           allow="autoplay"
                           style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%', border: 'none' }}>
                   </iframe>
